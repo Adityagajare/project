@@ -1,0 +1,109 @@
+.logincontainer{
+    background: linear-gradient(145deg, #56d8e4 ,rgb(173, 147, 147), #9f01ea );
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login{
+    background: white;
+    color: black;
+    width: 20%;
+    padding: 30px 30px;
+    border-radius: 10px;
+}
+.login>form{
+    display: flex;
+    flex-direction: column;
+}
+.login>form>input{
+    margin-bottom: 10px;
+    margin-top: 5px;
+    height: 5vh;
+    border: 2px solid gainsboro;
+    border-radius: 5px;
+    outline: none;
+}
+.login>form>h2{
+    color: #9f01ea;
+    margin-bottom: 10px;
+}
+.login>form>label{
+    font-size: 15px;
+}
+.login>form>button{
+    margin-top: 30px;
+    align-self: flex-start;
+    padding: 5px 15px;
+    background: linear-gradient(115deg,  #56d8e4 10%, #9f01ea 90%);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s ease;
+    font-size: 15px;
+}
+
+#registercontainer{
+    background: linear-gradient(145deg, #56d8e4 ,rgb(173, 147, 147), #9f01ea );
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#registerpage{
+    background: white;
+    color: black;
+    width: 40%;
+    padding: 30px 80px;
+    border-radius: 10px;
+}
+#forminnerdiv{
+    display: flex;
+    align-items: center;
+}
+#forminnerdiv>input{
+    margin-bottom: 10px;
+    margin-top: 5px;
+    height: 5vh;
+    border: 2px solid gainsboro;
+    border-radius: 5px;
+    outline: none;
+    margin-left: 30px;
+}
+#registerpage>form>button{
+    margin-top: 25px;
+    margin-right: 80px;
+    align-self: flex-start;
+    padding: 10px 25px;
+    background: linear-gradient(115deg,  #56d8e4 10%, #9f01ea 90%);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s ease;
+    font-size: 15px;
+}
+#registerpage>form>h2{
+    color: #9f01ea;
+    margin-bottom: 10px;
+}
+
+#forminnerdiv>label{
+    font-size: 15px;
+}
+#genderradio{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+#genderradio>input{
+    margin-left: 10px;
+    margin-right: 7px;
+}
+#registerpage>form>p>a{
+    color: blue;
+    text-decoration: none;
+}

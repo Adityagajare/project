@@ -1,0 +1,53 @@
+#sidebarcontainer{
+    height: 90vh;
+    width: 20%;
+    background-color: aliceblue;
+    padding: 10px;
+}
+#sidebarlist ul li{
+    list-style: none;
+    display: flex;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    border: 2px solid rgb(116, 101, 101);
+}
+#sidebarlist ul li a{
+    text-decoration: none;
+}
+#sidebarcontainer h2{
+    text-align: center;
+}
+
+
+
+#admindashboard{
+    display: flex;
+}
+
+#adminmainbar{
+    height: 90vh;
+    width: 80%;
+}
+
+
+
+#viewcardContainer{
+    /* border: 2px solid black; */
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+#viewcard{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid white;
+    color: white;
+    padding: 15px;
+    line-height: 30px;
+}
+#viewcard button{
+    height: 5vh;
+    width: 25%;
+    margin: auto;
+}
